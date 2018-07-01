@@ -51,7 +51,7 @@ public class ClienteServer extends Thread {
         try {
             // Recebimento de mensagens de outros usuários
             BufferedReader input = new BufferedReader(new InputStreamReader(this.connection.getInputStream()));
-            //cria variavel de mensagem
+            // Cria variavel de mensagem
             String message;
             while (true)
             {
